@@ -1,5 +1,22 @@
 body{
-  background-image: url('https://images-na.ssl-images-amazon.com/images/I/51uPRPFLjjL._SX425_.jpg');
-  background-size: 50%;
-  background-repeat: no-repeat;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  color: black;
+  font-size: 60px;
+}
+button{
+  text-align: center;
+  height: 50;
+  width: 200;
+  background-color: black;
+  color: white;
+  font-size: 14.5px;
+  border-color: black;
+  transition: .3s;
+}
+button:hover{
+  background-color: white;
+  color: black;
 }
