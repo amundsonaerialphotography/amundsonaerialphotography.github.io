@@ -1,3 +1,3 @@
-function ira() {
-
+function go() {
+  window.open('https://amundsonfamilymusic.com');
 }
