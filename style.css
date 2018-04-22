@@ -20,3 +20,11 @@ button:hover{
   background-color: white;
   color: black;
 }
+.Photos{
+  color: black;
+  font-size: 60px;
+}
+.farm{
+  height: 23%;
+  width: 50%;
+}
