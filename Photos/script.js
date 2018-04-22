@@ -1,3 +1,3 @@
 function goBack(){
-  open('http://amundsonaerialphotography.com/');
+  window.location.replace("http://amundsonaerialphotography.com/");
 }
