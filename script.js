@@ -1,7 +1,3 @@
 function afm() {
-  window.location.relpace('https://amundsonfamilymusic.com');
+  open('https://amundsonfamilymusic.com');
 }
-function photos() {
-  window.location.relpace('http://amundsonaerialphotography.com/Photos/');
-}
-
