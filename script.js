@@ -1,3 +1,3 @@
 function afm() {
-  open('https://amundsonfamilymusic.com');
+  window.open('https://amundsonfamilymusic.com');
 }
