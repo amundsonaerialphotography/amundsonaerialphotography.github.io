@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: .3s;
+}
+.navbar a:hover {
+  background-color: #666666;
+  
+.footer {
+    width: 100%;
+    background-color: #000000;
+    padding: 60px 0px;
+     position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;//or 600 pixels if you don't want it to fill the bottom of the page
+   background:#999;
+    
+}
+img {
+   width: auto;
+   padding: 0px 25px;
+}
+  
+textWrapper {
+  width: 100%;
+}
