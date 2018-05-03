@@ -21,11 +21,8 @@ body {
     width: 100%;
     background-color: #000000;
     padding: 60px 0px;
-     position:fixed;
-   left:0px;
-   bottom:0px;
-   height:50px;
-   width:100%;//or 600 pixels if you don't want it to fill the bottom of the page
-   background:#999;
+    position:fixed;
+    height:50px;
+    background:#999;
     
 }
