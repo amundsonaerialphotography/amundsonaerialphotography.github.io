@@ -30,8 +30,9 @@ body {
     
 }
 img {
-   width: auto;
-   padding: 0px 25px;
+   width: 50%;
+   height: 50%;
+   padding: 0px 50px;
 }
   
 textWrapper {
