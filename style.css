@@ -28,3 +28,7 @@ button:hover{
   height: 23%;
   width: 50%;
 }
+
+footer a {
+  background-color: #000000;
+}
