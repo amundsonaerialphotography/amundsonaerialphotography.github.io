@@ -31,4 +31,6 @@ button:hover{
 
 footer a {
   background-color: #000000;
+  text-decoration: none;
+  color: #fff;
 }
