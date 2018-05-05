@@ -30,7 +30,6 @@ button:hover{
 }
 
 footer a {
-  background-color: #000000;
   text-decoration: none;
   color: #fff;
 }
@@ -38,4 +37,5 @@ footer a {
 footer {
   width: 100%;
   height: 100px;
+  color: #000000;
 }
