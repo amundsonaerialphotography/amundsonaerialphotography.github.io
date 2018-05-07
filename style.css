@@ -6,6 +6,12 @@ h1 {
   color: black;
   font-size: 60px;
 }
+
+.maina {
+  text-decoration: none;
+  color: #000000;
+}
+
 button {
   text-align: center;
   height: 50;
