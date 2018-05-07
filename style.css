@@ -40,8 +40,7 @@ footer {
   background-color: #262626;
   color: #999999;
   bottom: 0;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding: 0px;
 }
 
 footer a:hover {
