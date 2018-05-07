@@ -39,7 +39,7 @@ footer {
   height: 200px;
   background-color: #262626;
   color: #999999;
-  bottom: 0;
+  bottom: -100000;
   padding: 0px;
 }
 
