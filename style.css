@@ -7,14 +7,6 @@ h1 {
   font-size: 60px;
 }
 
-h1.maina {
-  text-decoration: none;
-  color: blue;
-}
-h1.maina:hover {
-  text-decoration: underline;
-}
-
 .maina {
   text-decoration: none;
   color: blue;
