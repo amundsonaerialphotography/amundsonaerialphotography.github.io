@@ -37,7 +37,7 @@ footer {
   bottom: 0;
 }
 
-a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
