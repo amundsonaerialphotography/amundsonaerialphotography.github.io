@@ -48,4 +48,6 @@ a:hover {
 footer a {
   text-decoration: none;
   color: #ffffff;
+  padding-right: 5px;
+  padding-left: 5px;
 }
