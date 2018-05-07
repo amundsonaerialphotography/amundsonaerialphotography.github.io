@@ -1,12 +1,12 @@
-body{
+body {
   font-family: sans-serif;
   text-align: center;
 }
-h1{
+h1 {
   color: black;
   font-size: 60px;
 }
-button{
+button {
   text-align: center;
   height: 50;
   width: 200;
@@ -16,10 +16,15 @@ button{
   border-color: black;
   transition: .3s;
 }
-button:hover{
+button:hover {
   background-color: white;
   color: black;
 }
+
+img {
+  text-align: center;
+}
+
 .Photos{
   color: black;
   font-size: 60px;
