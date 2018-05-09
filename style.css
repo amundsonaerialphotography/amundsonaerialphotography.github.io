@@ -66,3 +66,9 @@ footer a {
   padding-right: 5px;
   padding-left: 5px;
 }
+
+.small {
+  font-size: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
