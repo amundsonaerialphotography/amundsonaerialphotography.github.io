@@ -80,11 +80,13 @@ function afm() {
 }
 function secret() {
 	perm = prompt('Congragulations! You found the secret spot!');
-}
+
 	if(perm = 'OK'){
 		open('http://amundsonaerialphotography.com/irasTestPage/');
 		alert('Maybe in the future I will have something more exiting than this, but for now I am taking you to my test page 😄'); 
-	}
+	}else{
+	  location.reload();
+	}}
 </script>
 </html>
 
