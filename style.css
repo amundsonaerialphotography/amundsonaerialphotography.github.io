@@ -72,3 +72,7 @@ footer a {
   color: #ffffff;
   cursor: pointer;
 }
+
+video {
+  background-color: #000000;
+}
