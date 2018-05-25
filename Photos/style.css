@@ -28,6 +28,9 @@ button:hover{
   height: 23%;
   width: 50%;
 }
+.farm:hover {
+  cursor: pointer;
+}
 
 <!-- footer start -->
 footer {
