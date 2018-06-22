@@ -68,7 +68,7 @@ footer a {
 }
 
 .facebook_button {
-  background-color: #000000;
+  background-color: #262626;
   border-style: none;
   color: #ffffff;
   width: 300px;
@@ -76,4 +76,10 @@ footer a {
   text-align: center;
   font-size: 18px;
   cursor: pointer;
+  transition: .3s;
+}
+
+.facebook_button:hover {
+  background-color: #ffffff;
+  color: #262626;
 }
