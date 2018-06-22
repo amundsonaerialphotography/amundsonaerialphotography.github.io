@@ -1,65 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Come back soon!</title>
-	<link rel='stylesheet' href='style.css'/>
-	<script src='script.js'></script>
-	<link rel="shortcut icon" href="MyLogo.ico" />
-	</head>
-<body>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-  <h1>
-		Page is Underway!
-  </h1>
+  <html>
+    <head>
+      <link rel='stylesheet' href='style2.css'/>
 
-  <p>
-			If you've come to see amundsonaerialphotography, you've come to the right place!
-  </p>
+      <script src='script2.js'></script>
+    </head>
+    <body>
+      <center>
+        <img src="A.jpg"></img>
+          <div class="navbar">
+            <a href="/">Home</a>
+            <a href="About/">About</a>
+            <a href="Photos/">Photos</a>
+            <a href="Services/">Services</a>
+            <a href="Contact">Contact</a>
+          </div>
+	    </center>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
 
-	<br/>
 
-  <p>
-				But while you are waiting, check out our music website:
-	</p>
-
-	<br/>
-    <button onclick="afm()">
-        amundsonfamilymusic.com
-	  </button>
-
-			<br/>
-			<br/>
-
-	    <p>
-				or look at some of my Photos:
-			</p>
-
-			<br/>
-	    <a class="maina" href="Photos/">
-			  Photos
-			</a><br/>
-	<p>But, if you are Ira, click this button (he is doing some experimenting, and this is his [test] page)<a class"maina" href="irasTestPage/">Ira's [test]page</a></p>
-
-			<br/>
-	      <img src="A.jpg" class="mainimg"></img><br/><br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<p>This is a short 1080p/60fps sample video.</p><p text-size="15px" background-color="red" padding="5px">(There is no watermark on this video, so please do not try to download it.)</p>
-	
-	<video width="420" height="340" controls>
-          <source src="car.mp4" type="video/mp4">
-        </video>
-	
-	  <p class="small" onclick="secret()">click Me!</p> 
-	  <footer>
+        <footer>
             <br class="footbr" />
 		  <p>Do not try to click these links; you will get a 404 error (page not found).  Only the following links work: Home, Photos, Ira's [test]page</p>
 	    <div class="navbottom">
@@ -71,28 +43,11 @@
 	      <a href="irasTestPage/">Ira's [test]page</a>
           </div>
 		  <br/>
-	          <a onclick="open('https://www.facebook.com/Amundson-Aerial-Photography-AAP-881108668736951/')">Check out My Facebook page</a>
+	          <button onclick="facebook()" class="facebook_button">Check out My Facebook page</button>
 	    <br/>
 	    <br/>
 	    <br/>
 	</footer>
-	           
-</body>
-<script>
-	let perm;
-	
-function afm() {
-  window.open('https://amundsonfamilymusic.com');
-}
-function secret() {
-	perm = prompt('Congragulations! You found the secret spot!  If you wish to continue, type "OK" ');
 
-	if(perm = 'OK'){
-		alert('Maybe in the future I will have something more exiting than this, but for now I am taking you to my test page 😄'); 
-		open('http://amundsonaerialphotography.com/irasTestPage/');
-	}else{
-	  window.location.reload();
-	}}
-</script>
-</html>
-
+    </body>
+  </html>
