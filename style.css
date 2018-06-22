@@ -2,33 +2,27 @@ body {
   font-family: sans-serif;
   text-align: center;
 }
-h1 {
-  color: black;
-  font-size: 60px;
-}
 
-.maina {
-  text-decoration: none;
-  color: blue;
+body {
+  font-family: sans-serif;
 }
-.maina:hover {
-  text-decoration: underline;
-}
-
-button {
-  text-align: center;
-  height: 50;
-  width: 200;
+.navbar {
+  overflow: hidden;
   background-color: black;
+}
+.navbar a {
+  float: left;
+  display: block;
   color: white;
-  font-size: 14.5px;
-  border-color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
   transition: .3s;
 }
-button:hover {
-  background-color: white;
-  color: black;
+.navbar a:hover {
+  background-color: #666666;
 }
+
 
 img {
   text-align: center;
@@ -71,8 +65,4 @@ footer a {
   font-size: 5px;
   color: #ffffff;
   cursor: pointer;
-}
-
-video {
-  background-color: #000000;
 }
