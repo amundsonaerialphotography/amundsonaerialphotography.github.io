@@ -78,3 +78,7 @@ footer a {
   background-color: #ffffff;
   color: #262626;
 }
+
+.current {
+  background-color: #666666;
+}
