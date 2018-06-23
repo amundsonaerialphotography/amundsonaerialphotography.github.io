@@ -1,5 +1,10 @@
 body {
   font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
 }
 .navbar {
   overflow: hidden;
@@ -18,8 +23,47 @@ body {
   background-color: #666666;
 }
 
+
+img {
+  text-align: center;
+}
+
+.Photos{
+  color: black;
+  font-size: 60px;
+}
+.farm{
+  height: 23%;
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #262626;
+  color: #999999;
+  bottom: -100000;
+  padding: 0px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footbr {
+  line-height: 50%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
 .facebook_button {
-  background-color: #000000;
+  background-color: #262626;
   border-style: none;
   color: #ffffff;
   width: 300px;
@@ -27,8 +71,10 @@ body {
   text-align: center;
   font-size: 18px;
   cursor: pointer;
+  transition: .3s;
 }
 
-.current {
-  background-color: #666666;
+.facebook_button:hover {
+  background-color: #ffffff;
+  color: #262626;
 }
