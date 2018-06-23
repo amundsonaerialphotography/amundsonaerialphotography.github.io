@@ -28,3 +28,7 @@ body {
   font-size: 18px;
   cursor: pointer;
 }
+
+.current {
+  background-color: #666666;
+}
