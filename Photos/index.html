@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>AAP | Amundson Aerial Photography</title>
-	<link rel='stylesheet' href='style.css'/>
-	<script src='script.js'></script>
-	<link rel="shortcut icon" href="MyLogo.ico" />        
-	</head>
-<body>
-  <h1 class="Photos">Photos</h1>
-	<p>Here are some Photos!                     <button class="b1" onclick= "goBack()" >Go Back</button><br/><br/><h3>1</h3>
+  <html>
+    <head>
+      <link rel='stylesheet' href='style.css'/>
+      <link rel="shortcut icon" href="MyLogo.ico"/>
+      <script src='script.js'></script>
+    </head>
+    <body>
+      <center>
+        <img src="A.jpg"></img>
+          <div class="navbar">
+            <a href="/">Home</a>
+            <a href="/About">About</a>
+            <a href="/Photos">Photos</a>
+            <a href="/Services">Services</a>
+            <a href="/Contact">Contact</a>
+          </div>
+	    </center>
+      
     <a href="AAP_0001.jpg" ><img src="AAP_0001.jpg" class="farm" onclick="open('http://amundsonaerialphotography.com/Photos/AAP_0001.jpg')" ></img></a><br/><br/><h3>2</h3>
     <a href="AAP_0002.jpg" ><img src="AAP_0002.jpg" class="farm" onclick="open('http://amundsonaerialphotography.com/Photos/AAP_0002.jpg')" ></img></a><br/><br/><h3>3</h3>
     <a href="AAP_0003.jpg" ><img src="AAP_0003.jpg" class="farm" onclick="open('http://amundsonaerialphotography.com/Photos/AAP_0003.jpg')" ></img></a><br/><br/><h3>4</h3>
@@ -24,20 +32,21 @@
 		  <p>Do not try to click these links; you will get a 404 error (page not found).  Only the following links work: Home, Photos, Ira's [test]page</p>
 	    <div class="navbottom">
               <a href="/">Home</a>
-              <a href="About/">About</a>
-              <a href="Photos/">Photos</a>
-              <a href="Services/">Services</a>
-              <a href="Contact">Contact</a>
-	      <a href="irasTestPage/">Ira's [test]page</a>
+              <a href="/About">About</a>
+              <a href="/Photos">Photos</a>
+              <a href="/Services">Services</a>
+              <a href="/Contact">Contact</a>
+	      <a href="/irasTestPageThatNoLongerExists">Ira's [test]page</a>
           </div>
 		  <br/>
-	          <a href="https://www.facebook.com/Amundson-Aerial-Photography-AAP-881108668736951/">Check out My Facebook page</a>
+	          <button onclick="facebook()" class="facebook_button">Check out My Facebook page</button>
 	    <br/>
 	    <br/>
 	    <br/>
 	</footer>
 
+    </body>
+  </html>
 
 
-</body>
-</html>
+
