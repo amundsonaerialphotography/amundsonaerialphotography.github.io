@@ -10,6 +10,7 @@ body{
 }
 .farm:hover {
   cursor: pointer;
+  opacity: .5;
 }
 
 .navbar {
