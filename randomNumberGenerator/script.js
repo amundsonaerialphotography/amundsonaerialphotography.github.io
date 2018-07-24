@@ -1,4 +1,4 @@
-var max = document.getElementById("number");
+var max = document.getElementById("number").value;
 
 function generate(max){
 
