@@ -1,4 +1,4 @@
-var date = document.getElementById("picDate").value;
+var date = document.getElementById("picDate");
 console.log(date);
 var date_old;
 
