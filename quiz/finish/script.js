@@ -1,6 +1,4 @@
 
-
-function go() {
   
   var dateOfPic = document.getElementById("picDate").value;
 console.log(dateOfPic);
@@ -38,11 +36,10 @@ if (document.getElementById("Plane").checked) {
 }else{
   if (document.getElementById("lot").checked) {
   change = "lot";
-}}}
+}}
 //——————————————————————————————————————————————————
   
-  
-  
+  function go() {
   
   if(date_old = false && AV = "drone"){
     if(colorValue = "color" && change = "no"){
@@ -50,5 +47,6 @@ if (document.getElementById("Plane").checked) {
   }else{
     open('http://amundsonaerialphotography.com/quiz/true/');
   }}
+  }
   
 
