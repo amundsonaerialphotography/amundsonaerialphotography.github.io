@@ -38,7 +38,7 @@ if (document.getElementById("Plane").checked) {
 }else{
   if (document.getElementById("lot").checked) {
   change = "lot";
-}}
+}}}
 //——————————————————————————————————————————————————
   
   
@@ -51,4 +51,4 @@ if (document.getElementById("Plane").checked) {
     open('http://amundsonaerialphotography.com/quiz/true/');
   }}
   
-}
+
