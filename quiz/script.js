@@ -8,7 +8,7 @@ if (document.getElementById("no").checked) {
 }else{
   if (document.getElementById("yes").checked) {
 
-  window.location.replace('http://amundsonaerialphotography.com/quiz/finish/');
+  window.open('http://amundsonaerialphotography.com/quiz/finish/');
 }}
 
 
