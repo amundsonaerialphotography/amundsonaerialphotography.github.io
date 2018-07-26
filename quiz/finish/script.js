@@ -11,5 +11,5 @@ var date_old;
 
 
 function go() {
-  alert(date);
+  alert(`${date} is way to old for a aerial photo`);
 }
