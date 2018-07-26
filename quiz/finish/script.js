@@ -39,6 +39,16 @@ if (document.getElementById("Plane").checked) {
   if (document.getElementById("lot").checked) {
   change = "lot";
 }}
+//——————————————————————————————————————————————————
   
+  
+  
+  
+  if(date_old = false && AV = "drone"){
+    if(colorValue = "color" && change = "no"){
+       open('http://amundsonaerialphotography.com/quiz/false/');
+  }}else{
+    open('http://amundsonaerialphotography.com/quiz/true/');
+  }
   
 }
