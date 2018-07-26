@@ -10,5 +10,5 @@ var date_old;
 
 
 function go() {
-  alert(date_old);
+  alert(date);
 }
