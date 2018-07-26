@@ -13,5 +13,15 @@ var date_old;
 }else{
   date_old = false;
 }
+  
+//——————————————————————————————————————————————————
+if (document.getElementById("Plane").checked) {
+  var AV = "plane";
+}else{
+  if (document.getElementById("Drone").checked) {
+  AV = "drone";
+}}
 
+  
+  
 }
