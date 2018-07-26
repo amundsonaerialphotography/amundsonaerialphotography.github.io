@@ -1,9 +1,9 @@
-var date = document.getElementById("picDate");
-console.log(date);
+var dateOfPic = document.getElementById("picDate");
+console.log(dateOfPic);
 var date_old;
 
 
-  if(date < 2010){
+  if(dateOfPic < 2010){
     date_old = true;
 }else{
   date_old = false;
@@ -11,5 +11,5 @@ var date_old;
 
 
 function go() {
-  alert(`${date} is way to old for a aerial photo`);
+  alert(`${dateOfPic} is way to old for a aerial photo`);
 }
