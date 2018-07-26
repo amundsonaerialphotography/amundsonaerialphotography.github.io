@@ -1,4 +1,4 @@
-var date = document.getElementById('date').value
+var date = document.getElementById('date').value;
 var date_old;
 
 
