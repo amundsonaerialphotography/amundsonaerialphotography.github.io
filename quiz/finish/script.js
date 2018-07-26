@@ -22,6 +22,14 @@ if (document.getElementById("Plane").checked) {
   AV = "drone";
 }}
 
+//——————————————————————————————————————————————————
+  if (document.getElementById("baw").checked) {
+  var colorValue = "black and white";
+}else{
+  if (document.getElementById("color").checked) {
+  colorValue = color;
+}}
+
   
   
 }
