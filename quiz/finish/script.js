@@ -42,7 +42,7 @@ if (document.getElementById("Plane").checked) {
   function go() {
   
   if(date_old = false && AV = "drone" && colorValue = "color" && change = "no"){
-    open('http://amundsonaerialphotography.com/quiz/false/')
+    open('http://amundsonaerialphotography.com/quiz/false/');
   }else{
     open('http://amundsonaerialphotography.com/quiz/true/');
   }
