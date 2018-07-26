@@ -27,9 +27,18 @@ if (document.getElementById("Plane").checked) {
   var colorValue = "black and white";
 }else{
   if (document.getElementById("color").checked) {
-  colorValue = color;
+  colorValue = "color";
 }}
-
+//——————————————————————————————————————————————————
+  if (document.getElementById("no").checked) {
+  var change = "no";
+}else{
+  if (document.getElementById("bit").checked) {
+  change = "bit";
+}else{
+  if (document.getElementById("lot").checked) {
+  change = "lot";
+}}
   
   
 }
