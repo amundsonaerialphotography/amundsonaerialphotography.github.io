@@ -8,7 +8,7 @@ console.log(dateOfPic);
 var date_old;
 
 
-  if(dateOfPic < 2010){
+  if(document.getElementById("picDate").value < 2010){
     date_old = true;
 }else{
   date_old = false;
