@@ -1,4 +1,5 @@
 var date = document.getElementById('date').value;
+console.log(date);
 var date_old;
 
 
