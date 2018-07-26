@@ -1,5 +1,5 @@
 var date = document.getElementById('date').value
-let date_old;
+var date_old;
 
 
   if(date < 2010){
