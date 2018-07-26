@@ -1,4 +1,9 @@
-var dateOfPic = document.getElementById("picDate");
+
+
+function go() {
+  alert(`${dateOfPic} is way to old for a aerial photo`);
+  
+  var dateOfPic = document.getElementById("picDate");
 console.log(dateOfPic);
 var date_old;
 
@@ -9,7 +14,4 @@ var date_old;
   date_old = false;
 }
 
-
-function go() {
-  alert(`${dateOfPic} is way to old for a aerial photo`);
 }
