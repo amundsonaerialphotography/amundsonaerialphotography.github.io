@@ -46,7 +46,7 @@ if (document.getElementById("Plane").checked) {
     console.debug('true');
   }
   
-  
+  document.getElementById("butt").onclick = go();
   
   function go() {
   
