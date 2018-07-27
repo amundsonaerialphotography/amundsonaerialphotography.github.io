@@ -1,3 +1,4 @@
+function go() {
 
   
   var dateOfPic = document.getElementById("picDate").value;
@@ -48,7 +49,7 @@ if (document.getElementById("Plane").checked) {
   
   
   
-  function go() {
+  
     
     alert(`${date_old},${AV},${colorValue},${change}.`);
     
