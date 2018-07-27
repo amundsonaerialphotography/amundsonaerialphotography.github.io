@@ -35,7 +35,7 @@ if (document.getElementById("Plane").checked) {
 }else{
   if (document.getElementById("lot").checked) {
   change = "lot";
-}}
+}}}
 //——————————————————————————————————————————————————
   
   if((((date_old == false) && AV == "drone") && colorValue == "color") && change == "no"){
