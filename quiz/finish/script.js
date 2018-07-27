@@ -52,10 +52,12 @@ if (document.getElementById("Plane").checked) {
   
     alert(needPhoto);
     
+  }
+  /*
   if(needPhoto == true){
     open('http://amundsonaerialphotography.com/quiz/false/');
   }else{
     open('http://amundsonaerialphotography.com/quiz/true/');
-  }}
+  }
   
 
