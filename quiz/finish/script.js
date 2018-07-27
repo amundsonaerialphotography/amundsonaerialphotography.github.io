@@ -46,13 +46,11 @@ if (document.getElementById("Plane").checked) {
     console.debug('true');
   }
   
-  document.getElementById("butt").onclick = go();
+  
   
   function go() {
-  
-    alert(needPhoto);
-    
-  }
+  alert('Go');
+}
   /*
   if(needPhoto == true){
     open('http://amundsonaerialphotography.com/quiz/false/');
