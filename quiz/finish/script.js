@@ -40,14 +40,14 @@ if (document.getElementById("Plane").checked) {
 //——————————————————————————————————————————————————
   
   if((((date_old == false) && AV == "drone") && colorValue == "color") && change == "no"){
-    var needPhoto = false;
+    open('http://amundsonaerialphotography.com/quiz/false/');
     console.debug('false');
   }else{
-    needPhoto = true;
+    open('http://amundsonaerialphotography.com/quiz/true/');
     console.debug('true');
   }
   
-  
+  /*
   
   
     
