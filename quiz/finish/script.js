@@ -45,7 +45,7 @@ if (document.getElementById("Plane").checked) {
   }else{
     open('http://amundsonaerialphotography.com/quiz/true/');
     console.debug('true');
-  }
+  }}
   
   /*
   
