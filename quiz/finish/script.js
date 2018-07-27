@@ -43,14 +43,22 @@ if (document.getElementById("Plane").checked) {
     open('http://amundsonaerialphotography.com/quiz/false/');
     console.debug('false');
   }else{
+    if(((((date_old == undefined) || AV == undefined) || colorValue == undefined) || change == undefined)){
+    alert('Please fill out all inputs');
+  }else{
     open('http://amundsonaerialphotography.com/quiz/true/');
     console.debug('true');
   }}
+
+
+
+}
   
+
+
+
   /*
-  
-  
-    
+   
     alert(`${date_old},${AV},${colorValue},${change},--------${needPhoto}.`);
     
   if(needPhoto == true){
