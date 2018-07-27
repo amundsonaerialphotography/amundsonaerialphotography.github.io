@@ -51,7 +51,7 @@ if (document.getElementById("Plane").checked) {
   
   
     
-    alert(`${date_old},${AV},${colorValue},${change},--------${nedPhoto}.`);
+    alert(`${date_old},${AV},${colorValue},${change},--------${needPhoto}.`);
     
   if(needPhoto == true){
     open('http://amundsonaerialphotography.com/quiz/false/');
