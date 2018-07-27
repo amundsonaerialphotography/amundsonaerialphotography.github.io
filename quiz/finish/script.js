@@ -50,6 +50,8 @@ if (document.getElementById("Plane").checked) {
   
   function go() {
   
+    alert(needPhoto);
+    
   if(needPhoto == true){
     open('http://amundsonaerialphotography.com/quiz/false/');
   }else{
