@@ -49,7 +49,11 @@ if (document.getElementById("Plane").checked) {
   
   
   function go() {
-  alert('Go');
+  if(needPhoto == true){
+    open('http://amundsonaerialphotography.com/quiz/false/');
+  }else{
+    open('http://amundsonaerialphotography.com/quiz/true/');
+  }
 }
   /*
   if(needPhoto == true){
