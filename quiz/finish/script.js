@@ -40,8 +40,10 @@ if (document.getElementById("Plane").checked) {
   
   if((((date_old == false) && AV == "drone") && colorValue == "color") && change == "no"){
     var needPhoto = false;
+    console.debug('false');
   }else{
     needPhoto = true;
+    console.debug('true');
   }
   
   
