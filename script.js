@@ -2,8 +2,8 @@ function facebook() {
   open('https://www.facebook.com/Amundson-Aerial-Photography-AAP-881108668736951/');
 }
 
-var alert = true;
-alert(`alert = ${alert}`);
+var box = true;
+alert(`box = ${box}`);
 
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -12,9 +12,9 @@ var modal = document.getElementById('myModal');
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-if(alert = true){
-modal.style.display = "block";
-alert = false;
+if(box == true){
+  modal.style.display = "block";
+  box = false;
 }
 
 // When the user clicks on <span> (x), close the modal
