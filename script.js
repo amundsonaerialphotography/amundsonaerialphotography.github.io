@@ -3,7 +3,7 @@ function facebook() {
 }
 
 var alert = true;
-alert(alert);
+alert(`alert = ${alert}`);
 
 // Get the modal
 var modal = document.getElementById('myModal');
