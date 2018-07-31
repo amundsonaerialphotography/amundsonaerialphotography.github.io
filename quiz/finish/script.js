@@ -46,7 +46,7 @@ if (document.getElementById("Plane").checked) {
     if(((((date_old == undefined) || AV == undefined) || colorValue == undefined) || change == undefined)){
     alert('Please fill out all inputs');
   }else{
-    open(`http://amundsonaerialphotography.com/quiz/true/`);
+    open(`http://amundsonaerialphotography.com/quiz/true/?date_old=${date_old}&AV=${AV}&colorValue=${colorValue}&change=${change}`);
     console.debug('true');
   }}
 
