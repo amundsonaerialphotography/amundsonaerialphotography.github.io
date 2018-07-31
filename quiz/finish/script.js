@@ -39,7 +39,7 @@ if (document.getElementById("Plane").checked) {
 }}}
 //——————————————————————————————————————————————————
   
-  if((((date_old == false) && AV == "drone") && colorValue == "color") && change == "no"){
+  if(((((date_old == false) && AV == "drone") && colorValue == "color") && change == "no") || ((((date_old == true) && (AV == "drone" || (AV == "plane"))) && colorValue == "color") && change == "no")){
     open('http://amundsonaerialphotography.com/quiz/false/');
     console.debug('false');
   }else{
