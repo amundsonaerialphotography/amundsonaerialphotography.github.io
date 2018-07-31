@@ -40,7 +40,7 @@ if (document.getElementById("Plane").checked) {
 //——————————————————————————————————————————————————
   
   if(((((date_old == false) && AV == "drone") && colorValue == "color") && change == "no") || ((((date_old == true) && (AV == "drone" || (AV == "plane"))) && colorValue == "color") && change == "no")){
-    open(`http://amundsonaerialphotography.com/quiz/false/`);
+    open(`http://amundsonaerialphotography.com/quiz/false/?date_old=${date_old}&AV=${AV}&colorValue=${colorValue}&change=${change}`);
     console.debug('false');
   }else{
     if(((((date_old == undefined) || AV == undefined) || colorValue == undefined) || change == undefined)){
