@@ -3,7 +3,7 @@ var AV;
 var colorValue;
 var change;
 
-document.getElementById('colorButton').onclick = function () {
+function click() {
   alert("clicked");
   document.getElementById('body').style.font-family = "sans-serif";
 }
