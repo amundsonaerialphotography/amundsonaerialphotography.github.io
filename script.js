@@ -3,7 +3,7 @@ function facebook() {
 }
 
 window.onload = function () {
-  //alert("webpage has loaded");
+  alert("My apologies, but my website isn't done yet.  Nevertheless, feel free to look around!");
   modal.style.display = "block";
 }
 
