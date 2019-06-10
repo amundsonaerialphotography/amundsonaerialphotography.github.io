@@ -125,10 +125,3 @@ function command() {
 function reply(reply) {
   document.getElementById('reply_monitor').innerHTML = reply;
 }
-
-
-
-//ip_traffic_test_24_bytes
-//ip.addr == 208.114.129.20
-//Iphone__ip.addr == 192.168.10.107
-//Mac__ip.addr == 192.168.10.192
