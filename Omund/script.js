@@ -81,13 +81,9 @@ function command() {
   }
 
   function ramA(array) {
-    var n = Math.floor(Math.random() * array.length);
-    if (n of ) {
 
-    } else {
-
-    }
-    //reply(randA(jokeQ));
+    reply(randA(array));
+    //var n = Math.floor(Math.random() * array.length);
   }
 
 
