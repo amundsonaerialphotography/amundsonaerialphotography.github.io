@@ -7,6 +7,7 @@ body {
   top: 20px;
   text-align: left;
   margin-left: 30px;
+  display: none;
 }
 
 .form_div {
@@ -18,6 +19,7 @@ body {
   width: 500px;
   position: absolute;
   margin-left: 10px;
+  display: none;
 }
 
 .submitB {
@@ -35,6 +37,12 @@ body {
   cursor: pointer;
 }
 
+.formT {
+  color: #000000;
+  position: relative;
+  top: 10px;
+}
+
 .text_monitor {
   z-index: +2;
 }
@@ -45,4 +53,18 @@ body {
 
 .omund_text {
   font-weight: bold;
+}
+
+.welcome {
+  width: 700px;
+  height: 500px;
+  background-color: #000000;
+  opacity: .7;
+  position: fixed;
+  top: 50px;
+  border-radius: 10px;
+  right: 25%;
+}
+.welcome_h {
+  color: #ffffff;
 }
