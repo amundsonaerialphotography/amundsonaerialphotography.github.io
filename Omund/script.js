@@ -1,9 +1,31 @@
+function showOmund() {
+  alert("welcome");
+  document.getElementById("welcome").style.display = "block";
+  alert("1");
+  document.getElementById("form_div").style.display = "none";
+  alert("2");
+  document.getElementById("contact_form").style.display = "none";
+  alert("3");
+}
+
+
+
+
 var url_string = window.location.href;
 var url = new URL(url_string);
 
+var welcome = url.searchParams.get("welcome");
 var raw_text = url.searchParams.get("text");
 var reply;
 var c;
+
+if (welcome == false) {
+  alert();
+  showOmund();
+} else {
+  reply("Hello!");
+}
+
 //alert(text);
 
 
