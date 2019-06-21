@@ -15,12 +15,13 @@ var url_string = window.location.href;
 var url = new URL(url_string);
 
 var welcome = url.searchParams.get("welcome");
+alert(welcome);
 var raw_text = url.searchParams.get("text");
 var reply;
 var c;
 
 if (welcome == false) {
-  alert();
+  alert(welcome);
   showOmund();
 } else {
   reply("Hello!");
