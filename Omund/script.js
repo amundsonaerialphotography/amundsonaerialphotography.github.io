@@ -1,32 +1,40 @@
 function showOmund() {
-  alert("welcome");
   document.getElementById("welcome").style.display = "block";
-  alert("1");
   document.getElementById("form_div").style.display = "none";
-  alert("2");
   document.getElementById("contact_form").style.display = "none";
-  alert("3");
 }
 
-
+function hideOmund() {
+  document.getElementById("welcome").style.display = "none";
+  document.getElementById("form_div").style.display = "block";
+  document.getElementById("contact_form").style.display = "block";
+}
 
 
 var url_string = window.location.href;
 var url = new URL(url_string);
 
-var welcome = url.searchParams.get("welcome");
-alert(welcome);
 var raw_text = url.searchParams.get("text");
 var reply;
 var c;
 
-if (welcome == false) {
-  alert(welcome);
-  showOmund();
-} else {
-  reply("Hello!");
+function welcome_button() {
+  var mon_text;
+  var welcome_txt = document.getElementById('welcome_text').value;
+  welcome_txt = welcome_txt.toLowerCase();
+
+  if (welcome_txt.includes('ok') || welcome_txt.includes('thank') || welcome_txt.includes('back') || welcome_txt.includes('talk') || welcome_txt.includes('yes')) {
+    hideOmund();
+  } else {
+    welcome_mon(randA(i_didnt_get_that));
+  }
+
+
 }
 
+function welcome_mon(mon_text) {
+  document.getElementById('welcome_monitor').innerHTML = mon_text;
+}
 //alert(text);
 
 
@@ -119,6 +127,17 @@ const i_doing_good = [
     'Good!'
 ];
 
+var i_didnt_get_that = [
+  "I didn't get that",
+  "I didn't get that",
+  "I didn't get that",
+  "??",
+  'Uhhhh...?',
+  "Sorry...?",
+  "I didn't understand that",
+  'Anything else you can say?'
+];
+
 
 
 //-----------------arrays---------------------------------
@@ -176,7 +195,9 @@ function ramA(array) {
 function command(text) {
 
 
-
+  if ((text.includes("how") && text.includes("you") && text.includes("work")) || (text.includes("what") && text.includes("i") && text.includes("do")) || (text.includes("what") && text.includes("you") && text.includes("do"))) {
+    showOmund();
+  } else {
 
   if ((text.includes("hi") == true && text.indexOf("hi") == 0) || text.includes("hello") == true|| text.includes("Hello") == true || text.includes("sup") == true || text.includes("hey") == true) {
     setTimeout(function () {
@@ -241,9 +262,21 @@ function command(text) {
                       }, 1000);
 
                     } else {
-                      setTimeout(function () {
-                        reply(text + randA(salt_1));
-                      }, 1000);
+                      if (text.includes("time") || text.includes("date")) {
+                        setTimeout(function () {
+                          var m = new getMonth();
+                          var d = new getDay();
+                          var y = new getFullYear();
+                          var fulldate = `${m}/${d}/${y}`;
+                          reply(`It is ${fulldate}.`);
+                        }, 1000);
+
+                      } else {
+                        setTimeout(function () {
+                          reply(text + randA(salt_1));
+                        }, 1000);
+
+                    }
 
                   }
 
@@ -259,7 +292,7 @@ function command(text) {
 
       }
 
-    }}}
+    }}}}
 
 
 
