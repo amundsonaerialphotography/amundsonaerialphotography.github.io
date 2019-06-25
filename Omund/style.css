@@ -7,7 +7,7 @@ body {
   top: 20px;
   text-align: left;
   margin-left: 30px;
-  display: none;
+
 }
 
 .form_div {
@@ -19,7 +19,7 @@ body {
   width: 500px;
   position: absolute;
   margin-left: 10px;
-  display: none;
+
 }
 
 .submitB {
@@ -64,7 +64,17 @@ body {
   top: 50px;
   border-radius: 10px;
   right: 25%;
+  display: none;
 }
 .welcome_h {
+  color: #ffffff;
+}
+
+.welcome_p {
+  color: #ffffff;
+}
+
+.welcome_monitor {
+  z-index: +1;
   color: #ffffff;
 }
